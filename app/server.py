@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/file/d/1S3YOeKSHbxeZ0oX44Hw-CQalXfmMwolE/view?usp=sharing'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1S3YOeKSHbxeZ0oX44Hw-CQalXfmMwolE'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['electric_guitars', 'acoustic_guitars']
 path = Path(__file__).parent
 
 app = Starlette()
