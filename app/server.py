@@ -9,8 +9,8 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1S3YOeKSHbxeZ0oX44Hw-CQalXfmMwolE'
-export_file_name = 'export.pkl'
+export_file_url = 'https://fastaimodels.s3.amazonaws.com/Guitar_model'
+export_file_name = 'Guitar_model'
 
 classes = ['electric_guitars', 'acoustic_guitars','not_guitar']
 path = Path(__file__).parent
